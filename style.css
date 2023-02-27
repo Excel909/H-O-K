@@ -139,6 +139,7 @@ body{
     font-size: 11pt;
     text-transform: capitalize;
     font-weight: normal;
+    color: #eee;
 }
 
 .small-butt{
@@ -151,10 +152,11 @@ body{
 }
 
 .about{
-    font-size: 14pt;
+    font-size: 12pt;
     padding: 40px;
     font-family: candara;
     width: 45%;
+    margin-left: 30px;
 }
 
 .head{
@@ -275,20 +277,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .cont{
     display:block;
     height: fit-content;
@@ -317,9 +305,97 @@ body{
     box-shadow: 0px 0px 5px #ccc;
 }
 
+.feed-logo{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: arial;
+    text-transform: capitalize;
+    font-size: 25pt;
+    margin-top: 20px;
+}
 
+.feed-s{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-family: candara;
+}
 
+.feed-image{
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
 
+.feed-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
 
+.feed-cover{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background:rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+}
+
+.contact{
+    width: 40%;
+    height: fit-content;
+    /* background-color: red; */
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px #ccc;
+    font-family: candara;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"]{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid darkred;
+    margin: 10px 4px;
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+
+.msg-box{
+    width: 300px;
+    height:150px;
+    font-family: candara;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+}
+
+.msg-box::first-letter{
+    text-transform: capitalize;
+}
+
+.submit{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkred;
+    color: white;
+    margin-left: 25%;
+    margin-top: 20px;
+}
 
 
