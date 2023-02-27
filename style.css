@@ -178,6 +178,10 @@ body{
     width: 25%;
     height: 200px;
     box-shadow: 0px 0px 10px #ccc;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    font-family: candara;
 }
 
 .footer{
@@ -398,4 +402,11 @@ input[type="email"]{
     margin-top: 20px;
 }
 
+.box-i{
+    font-size: 50pt;
+}
+
+.youp{
+    color:red;
+}
 
