@@ -414,9 +414,9 @@ input[type="email"]{
     display: none;
 }
 
-
-
-
+#come{
+    display: none;
+}
 
 
 
@@ -588,12 +588,12 @@ input[type="email"]{
 }
 
 #come a{
-    padding: 23px;
+    padding: 33px;
     display: block;
     text-decoration: none;
     color: #222;
     font-family: candara;
-    font-size: 13pt;
+    font-size: 14pt;
 }
 
 
