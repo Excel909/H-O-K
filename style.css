@@ -464,7 +464,7 @@ input[type="email"]{
     padding: 0px;
     width: 100%;
     margin-left: 0%;
-    border-left: 1px solid #bbb;
+    border-left:none;
     height: fit-content;
 }
 
@@ -490,6 +490,7 @@ input[type="email"]{
     justify-content: space-around;
     align-items: center;
     font-size: 40pt;
+    z-index: 0;
 }
 
 .small{
@@ -561,7 +562,7 @@ input[type="email"]{
 }
 
 .m-logo{
-    font-size: 20pt;
+    font-size: 25pt;
     font-family: arial;
     font-weight: 700;
 }
@@ -570,6 +571,29 @@ input[type="email"]{
     text-decoration: none;
     font-size: 20pt;
     color: black;
+}
+
+#come ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#come{
+    height: 100vh;
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 1;
+    width: 80%;
+}
+
+#come a{
+    padding: 23px;
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-family: candara;
+    font-size: 13pt;
 }
 
 
